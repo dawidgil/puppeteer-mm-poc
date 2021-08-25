@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/dappeteer": "^2.0.1",
+    "@nodefactory/dappeteer": "^2.0.1",
+    "dappeteer": "^1.0.0",
+    "puppeteer": "^10.2.0",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1"
+  }
 }
