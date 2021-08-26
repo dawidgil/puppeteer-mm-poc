@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const dappeteer = require('@nodefactory/dappeteer');
+const dappeteer = require('@chainsafe/dappeteer');
 async function getMetamaskWindow(browser) {
     const metamaskPage = await new Promise((resolve) => {
         browser.pages().then((pages) => {

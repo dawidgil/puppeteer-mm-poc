@@ -9,8 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@chainsafe/dappeteer": "^2.0.1",
-    "@nodefactory/dappeteer": "^2.0.1",
+    "@chainsafe/dappeteer": "^2.0.2",
     "dappeteer": "^1.0.0",
     "puppeteer": "^10.2.0",
     "ts-node": "^8.2.0",
