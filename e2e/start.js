@@ -54,8 +54,11 @@ async function main() {
         await sign.click();
 
         await page.bringToFront();
+        await page.waitForTimeout(10000);
+
     } catch (e) {
         console.log(e);
+    } finally {
         await browser.close();
     }
 
